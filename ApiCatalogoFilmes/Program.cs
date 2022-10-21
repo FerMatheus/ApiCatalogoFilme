@@ -1,12 +1,13 @@
 using System.Text.Json.Serialization;
 using ApiCatalogoFilmes;
+using Microsoft.AspNetCore.Http.Json;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers().AddJsonOptions(op =>
+builder.Services.Configure<JsonOptions>(op =>
 {
-    op.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+    op.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 });
 
 // Conseguindo a string de conexão com o db
@@ -74,7 +75,11 @@ app.MapDelete("/genero/{id:int}", async (int id, AppDbContext db) =>
 
     return Results.Ok(genero);
 });
+
+
 //-----------------------------------------------------Endpoint Filmes------------------------------------------------------------------------------------------
+
+
 app.MapGet("/filme", async (AppDbContext db) => await db.Filmes.ToListAsync());
 
 app.MapGet("/filme/{id:int}", async (int id, AppDbContext db) =>
