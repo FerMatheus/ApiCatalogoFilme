@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+wUPi/tUsxShdPr7XF4G9ACbLunqYYdAzNFfa7zMPExDyjRAQX4325IwQ10Thkkc10IYlx6JISTDl+vbD4lX3w==",
+  "dgSpecHash": "2cgbpk+zrRP58TqTwGoLFMwnA1nxcKX4vmZzAouv8W+2hoIMV/ZTB7eGTKoFL3ocLcxqq87d7hH78urCQpwbDw==",
   "success": true,
-  "projectFilePath": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilmes/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj",
+  "projectFilePath": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilme/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj",
   "expectedPackageFiles": [
     "/home/matheus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.entityframeworkcore/6.0.10/microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

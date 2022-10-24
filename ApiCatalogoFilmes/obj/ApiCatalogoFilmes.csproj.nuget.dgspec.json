@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilmes/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj": {}
+    "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilme/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj": {}
   },
   "projects": {
-    "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilmes/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj": {
+    "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilme/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilmes/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj",
+        "projectUniqueName": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilme/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj",
         "projectName": "ApiCatalogoFilmes",
-        "projectPath": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilmes/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj",
+        "projectPath": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilme/ApiCatalogoFilmes/ApiCatalogoFilmes.csproj",
         "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilmes/ApiCatalogoFilmes/obj/",
+        "outputPath": "/home/matheus/Programming/CSharpProjects/ApiCatalogoFilme/ApiCatalogoFilmes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/matheus/.nuget/NuGet/NuGet.Config"
